@@ -83,8 +83,8 @@ const ExperincePoint = ({
 			</div>
 
 			<ul className='ml-20 mt-4 list-disc'>
-				{bulletPoints.map((bullet) => (
-					<li>{bullet}</li>
+				{bulletPoints.map((bullet, idx) => (
+					<li key={idx}>{bullet}</li>
 				))}
 			</ul>
 		</div>

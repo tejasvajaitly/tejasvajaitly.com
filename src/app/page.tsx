@@ -72,8 +72,11 @@ const LatestProjects = () => {
 			</div>
 			<Hr />
 			<div>
-				{projects.map((project) => (
-					<div className='my-10 flex flex-row items-center justify-start gap-4 text-2xl'>
+				{projects.map((project, idx) => (
+					<div
+						key={idx}
+						className='my-10 flex flex-row items-center justify-start gap-4 text-2xl'
+					>
 						<Link
 							className='text-text hover:underline dark:text-textDark'
 							target='_blank'
