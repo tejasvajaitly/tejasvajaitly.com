@@ -10,11 +10,11 @@ const About = () => {
 					Hi!
 				</h1>
 				<p className='mt-10 text-xl leading-loose text-text dark:text-textDark'>
-					Welcome to my personal website! I'm Tejasva, but you can call me Neil.
-					I have a deep passion for web development and love staying on the
-					cutting edge of technology. Currently, I am immersed in learning React
-					Server Components and Next.js 13, exploring their potential to enhance
-					web experiences.
+					Welcome to my personal website! I&apos;m Tejasva, but you can call me
+					Neil. I have a deep passion for web development and love staying on
+					the cutting edge of technology. Currently, I am immersed in learning
+					React Server Components and Next.js 13, exploring their potential to
+					enhance web experiences.
 				</p>
 			</section>
 			<Experiences />
