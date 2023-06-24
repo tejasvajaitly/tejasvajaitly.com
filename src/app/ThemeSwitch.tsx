@@ -15,15 +15,15 @@ const ThemeSwitch = () => {
 		if (theme === "system") {
 			if (resolvedTheme === "dark") {
 				setTheme("dark");
-				setDarkMode(true);
+				setDarkMode(false);
 			} else if (resolvedTheme === "light") {
 				setTheme("light");
-				setDarkMode(false);
+				setDarkMode(true);
 			}
 		} else if (theme === "dark") {
-			setDarkMode(true);
-		} else if (theme === "light") {
 			setDarkMode(false);
+		} else if (theme === "light") {
+			setDarkMode(true);
 		}
 	}, [resolvedTheme, systemTheme, theme]);
 
@@ -45,7 +45,7 @@ const ThemeSwitch = () => {
 				checked={isDarkMode}
 				onChange={toggleDarkMode}
 				size={40}
-				moonColor='#F6F1D5'
+				moonColor='#7377b3'
 				sunColor='#FD7F20'
 			/>
 		</span>

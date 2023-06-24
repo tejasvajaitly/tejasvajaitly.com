@@ -3,22 +3,25 @@ import ThemeSwitch from "./ThemeSwitch";
 
 const Header = () => {
 	return (
-		<header className='flex flex-col justify-between mb-4'>
-			<div className='flex flex-row justify-between items-center'>
-				<Link href='/' className='text-3xl cursor-pointer'>
+		<header className='flex flex-col justify-between'>
+			<div className='flex flex-row items-center justify-between'>
+				<Link
+					href='/'
+					className='cursor-pointer text-3xl text-primary dark:text-primaryDark'
+				>
 					Home
 				</Link>
 				<ThemeSwitch />
 			</div>
-			<div className='flex flex-col justify-center items-start sm:flex-row sm:justify-between sm:items-center mt-10'>
+			<div className='mt-10 flex flex-col items-start justify-center sm:flex-row sm:items-center sm:justify-between'>
 				<nav>
 					<Ul>
 						<Li>
 							<Link href='/about'>About</Link>
 						</Li>
-						<Li>
+						{/* <Li>
 							<Link href='/projects'>Projects</Link>
-						</Li>
+						</Li> */}
 					</Ul>
 				</nav>
 				<div>
@@ -59,13 +62,13 @@ const Header = () => {
 export default Header;
 
 const Ul = ({ children }: { children: React.ReactNode }) => (
-	<ul className='flex flex-row justify-evenly items-center gap-5'>
+	<ul className='flex flex-row items-center justify-evenly gap-5'>
 		{children}
 	</ul>
 );
 
 const Li = ({ children }: { children: React.ReactNode }) => (
-	<li className='cursor-pointer text-gray-500 font-Light hover:underLine hover:text-black dark:hover:text-white text-base sm:text-lg'>
+	<li className='font-Light cursor-pointer text-base text-secondary transition ease-in-out hover:text-primary hover:underline dark:text-secondaryDark dark:hover:text-primaryDark sm:text-lg'>
 		{children}
 	</li>
 );

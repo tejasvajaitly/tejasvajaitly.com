@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Providers from "./providers";
 import Header from "./Header";
+import Hr from "@/app/components/Hr";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,11 +19,11 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body
-				className={`${inter.className} min-h-screen w-full max-w-screen-lg mx-auto p-4 sm:p-10 bg-white dark:bg-black`}
+				className={`${inter.className} mx-auto min-h-screen w-full max-w-screen-lg bg-white p-4 dark:bg-black sm:p-10`}
 			>
 				<Providers>
 					<Header />
-					<hr className='h-px border-0 bg-slate-300 dark:bg-slate-800 bg' />
+					<Hr />
 					{children}
 				</Providers>
 			</body>
