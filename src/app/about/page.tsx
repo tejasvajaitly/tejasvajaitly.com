@@ -2,6 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import Hr from "@/app/components/Hr";
 
+export const metadata = {
+	title: "About - Tejasva Jaitly",
+	description: "About Page - Tejasva(Neil) jaitly",
+};
+
 const About = () => {
 	return (
 		<div className='flex flex-col gap-28'>

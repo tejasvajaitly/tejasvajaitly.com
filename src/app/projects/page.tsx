@@ -46,6 +46,11 @@ const phoneBook = {
 	github: "https://github.com/tejasvajaitly/react-router",
 };
 
+export const metadata = {
+	title: "Projects - Tejasva Jaitly",
+	description: "Personal Projects - Tejasva jaitly",
+};
+
 const Projects = () => {
 	return (
 		<div className='flex flex-col gap-28'>
