@@ -13,15 +13,15 @@ const Header = () => {
 				</Link>
 				<ThemeSwitch />
 			</div>
-			<div className='mt-10 flex flex-col items-start justify-center sm:flex-row sm:items-center sm:justify-between'>
+			<div className='mt-10 flex flex-col items-start justify-center gap-4 sm:flex-row sm:items-center sm:justify-between'>
 				<nav>
 					<Ul>
 						<Li>
 							<Link href='/about'>About</Link>
 						</Li>
-						{/* <Li>
+						<Li>
 							<Link href='/projects'>Projects</Link>
-						</Li> */}
+						</Li>
 					</Ul>
 				</nav>
 				<div>
@@ -41,7 +41,7 @@ const Header = () => {
 						</Li>
 						<Li>
 							<Link target='_blank' href='https://twitter.com/neiljaitly7963'>
-								Twittter
+								Twitter
 							</Link>
 						</Li>
 						<Li>

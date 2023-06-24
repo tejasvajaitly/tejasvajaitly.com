@@ -4,8 +4,8 @@ import Hr from "@/app/components/Hr";
 
 const About = () => {
 	return (
-		<div>
-			<section className='mb-40 mt-36'>
+		<div className='flex flex-col gap-28'>
+			<section>
 				<h1 className='text-5xl font-semibold text-primary dark:text-primaryDark'>
 					Hi!
 				</h1>

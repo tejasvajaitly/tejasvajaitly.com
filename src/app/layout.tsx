@@ -1,7 +1,8 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Providers from "./providers";
-import Header from "./Header";
+import Providers from "@/app/providers";
+import Header from "@/app/Header";
+import Footer from "@/app/Footer";
 import Hr from "@/app/components/Hr";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,7 +25,9 @@ export default function RootLayout({
 				<Providers>
 					<Header />
 					<Hr />
-					{children}
+					<section className='my-36'>{children}</section>
+					<Hr />
+					<Footer />
 				</Providers>
 			</body>
 		</html>

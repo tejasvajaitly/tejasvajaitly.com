@@ -3,8 +3,8 @@ import Hr from "@/app/components/Hr";
 
 export default function Home() {
 	return (
-		<main>
-			<section className='mb-40 mt-36'>
+		<main className='flex flex-col gap-36'>
+			<section>
 				<h1 className='text-6xl font-semibold text-primary dark:text-primaryDark'>
 					Tejasva Jaitly
 				</h1>
