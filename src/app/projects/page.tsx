@@ -54,7 +54,7 @@ const Projects = () => {
 					Personal Projects
 				</h1>
 				<p className='mt-10 text-xl leading-loose text-text dark:text-textDark'>
-					I've been working on some personal projects to explore different
+					I&apos;ve been working on some personal projects to explore different
 					libraries and browser APIs. I enjoy experimenting with the latest
 					tools and publishing my creations on{" "}
 					<Link
