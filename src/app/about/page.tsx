@@ -74,7 +74,7 @@ const ExperincePoint = ({
 		<div className='my-10'>
 			<div className='flex flex-row items-center justify-start gap-4'>
 				<div className='flex h-14 w-14 items-center justify-center rounded-lg bg-[#F9F1F0]'>
-					<Image src={logoPath} alt='' height={30} width={30} />
+					<Image src={logoPath} alt='' priority={true} height={30} width={30} />
 				</div>
 				<div className='flex flex-col items-start justify-center'>
 					<h3>{companyName}</h3>

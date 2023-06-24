@@ -99,6 +99,7 @@ const ProjectCard = ({ projectInfo }: ProjectCardProps) => {
 					className='rounded-t-lg'
 					src={projectInfo.imagePath}
 					alt=''
+					priority={true}
 					width={450}
 					height={450}
 				/>
