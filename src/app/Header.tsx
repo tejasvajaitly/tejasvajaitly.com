@@ -44,14 +44,6 @@ const Header = () => {
 								Twitter
 							</Link>
 						</Li>
-						<Li>
-							<Link
-								target='_blank'
-								href='https://drive.google.com/file/d/1UuDqu46JtxungUqWYH64wIxKDrFXAzfn/view?usp=sharing'
-							>
-								Resume
-							</Link>
-						</Li>
 					</Ul>
 				</div>
 			</div>

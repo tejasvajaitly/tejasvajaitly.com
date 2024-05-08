@@ -4,6 +4,7 @@ import Providers from "@/app/providers";
 import Header from "@/app/Header";
 import Footer from "@/app/Footer";
 import Hr from "@/app/components/Hr";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
 					<Header />
 					<Hr />
 					<section className='my-36'>{children}</section>
+					<Analytics />
 					<Hr />
 					<Footer />
 				</Providers>

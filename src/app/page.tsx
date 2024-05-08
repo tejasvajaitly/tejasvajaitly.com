@@ -54,6 +54,11 @@ const projects = [
 		liveLink: "https://chirp-six-flame.vercel.app/",
 		name: "Chirp",
 	},
+	{
+		github: "https://github.com/tejasvajaitly/beaver",
+		liveLink: "https://beaver-hazel.vercel.app/",
+		name: "Beaver",
+	},
 ];
 
 const LatestProjects = () => {
