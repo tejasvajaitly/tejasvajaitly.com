@@ -26,11 +26,10 @@ export default function RootLayout({
 				<Providers>
 					<Header />
 					<Hr />
-					<section className='my-36'>{children}</section>
+					<section className='my-36'>{children}<Analytics /></section>
 					<Hr />
 					<Footer />
 				</Providers>
-				<Analytics />
 			</body>
 		</html>
 	);
