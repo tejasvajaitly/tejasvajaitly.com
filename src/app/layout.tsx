@@ -27,10 +27,10 @@ export default function RootLayout({
 					<Header />
 					<Hr />
 					<section className='my-36'>{children}</section>
-					<Analytics />
 					<Hr />
 					<Footer />
 				</Providers>
+				<Analytics />
 			</body>
 		</html>
 	);
